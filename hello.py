@@ -2,6 +2,7 @@
 import click
 import glob
 
+ error=
 
 @click.command()
 @click.option(
