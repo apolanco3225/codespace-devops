@@ -3,7 +3,7 @@ install:
 		pip install -r requirements.txt
 
 lint:
-	pylint --disable=R,C hello.py
+	pylint --disable=R,C helloche.py
 
 format:
 	black *.py
